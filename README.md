@@ -37,7 +37,7 @@ El módulo transmisor se basa en un microcontrolador ESP32 WROOM-32 que gestiona
 4. **Protocolo de comunicación**: Transmisión serie de comandos de posicionamiento angular en formato ASCII
 
 <div style="text-align: center; margin: 20px 0;">
-    <img src="INSERTAR_IMAGEN_PROYECTO" alt="Vista general del sistema implementado" style="max-width: 100%; height: auto;">
+    <img src="./images/proyecto.png" alt="Vista general del sistema implementado" style="max-width: 100%; height: auto;">
     <p><em>Figura 1: Vista general del sistema de control PTZ implementado</em></p>
 </div>
 
