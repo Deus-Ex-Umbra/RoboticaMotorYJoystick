@@ -1,16 +1,16 @@
-# Sistema de Control Pan-Tilt para Cámara de Seguridad 📹
+# Sistema de Control  para Cámara de Seguridad 📹
 
 Un sistema de control remoto inalámbrico para cámaras de seguridad que permite posicionamiento angular preciso mediante comunicación Bluetooth y control por joystick.
 
 ## 🎯 Descripción del Proyecto
 
-Este proyecto implementa un sistema distribuido de control Pan-Tilt-Zoom (PTZ) para cámaras de seguridad, compuesto por dos módulos que se comunican de forma inalámbrica:
+Este proyecto implementa un sistema distribuido de control para cámaras de seguridad, compuesto por dos módulos que se comunican de forma inalámbrica:
 
 - **Módulo Controlador (ESP32)**: Captura los movimientos del joystick y los transmite vía Bluetooth
 - **Módulo Actuador (Arduino Mega)**: Recibe los comandos y controla el motor paso a paso para posicionar la cámara
 
-![Sistema PTZ Implementado](./images/proyecto.png)
-*Vista general del sistema de control PTZ implementado*
+![Sistema Implementado](./images/proyecto.png)
+*Vista general del sistema de control  implementado*
 
 ## 🚀 Características Principales
 
@@ -123,7 +123,7 @@ void setup() {
   pinMode(yPin, INPUT);
   pinMode(swPin, INPUT_PULLUP);
   
-  Serial.println("Sistema de control PTZ iniciado");
+  Serial.println("Sistema de control iniciado");
 }
 
 float joystickToAngle(int x_raw, int y_raw, int centro = 2048) {
@@ -237,19 +237,6 @@ void moverHaciaAngulo(int objetivo) {
 2. **Eliminación efectiva de ruido** mediante zona muerta
 3. **Optimización de trayectoria** funciona correctamente
 4. **Respuesta fluida** del sistema de control
-
-### 📈 Pruebas Realizadas
-- **Precisión**: Error promedio ±1° en posicionamiento
-- **Latencia**: 150ms promedio de respuesta
-- **Confiabilidad**: 99.5% de comandos ejecutados correctamente
-- **Autonomía**: 8+ horas de operación continua
-
-## 🚧 Limitaciones Actuales
-
-1. **Control unidimensional**: Solo eje horizontal (Pan)
-2. **Lazo abierto**: Sin retroalimentación de posición
-3. **Velocidad fija**: No varía según desplazamiento del joystick
-4. **Sin referencia absoluta**: Posición relativa únicamente
 
 ## 🛠️ Instalación y Uso
 
