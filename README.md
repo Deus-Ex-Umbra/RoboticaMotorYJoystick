@@ -70,7 +70,7 @@ El módulo receptor utiliza un microcontrolador Arduino Mega 2560 para el contro
 #### Módulo Transmisor (ESP32)
 
 <div style="text-align: center; margin: 20px 0;">
-    <img src="INSERTAR_IMAGEN_CIRCUITO" alt="Diagrama esquemático del sistema" style="max-width: 100%; height: auto;">
+    <img src="./images/diagrama.png" alt="Diagrama esquemático del sistema" style="max-width: 100%; height: auto;">
     <p><em>Figura 2: Diagrama esquemático de conexiones del sistema</em></p>
 </div>
 
