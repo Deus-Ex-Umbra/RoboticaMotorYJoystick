@@ -299,18 +299,3 @@ void moverHaciaAngulo(int objetivo) {
 | Posición incorrecta | Falla en cálculo angular | Reiniciar sistema |
 | Pérdida de comunicación | Interferencia Bluetooth | Reducir distancia |
 | Vibración excesiva | Velocidad muy alta | Aumentar delay entre pulsos |
-
-## 👥 Contribuciones
-
-Las contribuciones son bienvenidas. Para cambios importantes:
-
-1. Fork del repositorio
-2. Crear rama para nueva característica
-3. Realizar pruebas exhaustivas
-4. Enviar pull request con descripción detallada
-
-### 🏆 Reconocimientos
-
-Proyecto desarrollado como parte del curso de Robótica y Sistemas de Control. Agradecimientos especiales a la comunidad open-source por las librerías y documentación utilizadas.
-
-**⭐ Si este proyecto te fue útil, no olvides darle una estrella!**
